@@ -4,11 +4,11 @@ import { faSquareCheck } from '@fortawesome/free-solid-svg-icons'; // Import the
 const Card3 = () => {
   const cards3 = [
     {
-      icon: faSquareCheck, // Add icon property
+      icon: faSquareCheck,
       text: 'Eos aspernatur rem',
     },
     {
-      icon: faSquareCheck, // Use the same icon or different if needed
+      icon: faSquareCheck, 
       text: 'Facilis neque ipsa',
     },
     {
@@ -37,8 +37,8 @@ const Card3 = () => {
           className="bg-white shadow-lg p-6 w-[280px] h-[80px] flex items-center justify-start text-left"
         >
           <FontAwesomeIcon
-            icon={item.icon} // Use the icon property from each item
-            style={{ color: "#e6e9ef", fontSize: "10px" }} // Adjust style as needed
+            icon={item.icon} 
+            style={{ color: "#e6e9ef", fontSize: "10px" }} 
             className="mr-4 hover:bg-blue-900 h-7 w-6"
           />
           <h3 className="text-xl font-semibold text-blue-900">{item.text}</h3>

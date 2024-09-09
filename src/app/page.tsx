@@ -7,6 +7,7 @@ import Pricing from "./Section/Pricing";
 import Faq from "./Section/Faq";
 import Portfolio from "./Section/Portfolio";
 import Testimonial from "./Section/Testimonals";
+import Team from "./Section/Team";
 
 
 
@@ -33,6 +34,7 @@ export default function Home() {
     <Faq/>
     <Portfolio/>
     <Testimonial/>
+    <Team/>
       </div>
     </div>
       

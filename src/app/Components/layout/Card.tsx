@@ -7,7 +7,7 @@ const Cards = () => {
       title: 'Ad cupiditate sed est odio',
       description: 'Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit. Et veritatis id.',
     },
-    { //in
+    { 
       src: '/volu.png',
       alt: 'volu',
       title: 'Voluptatem voluptatum alias',

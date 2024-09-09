@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import React, { useState } from "react";
-import { AiOutlineLink, AiOutlineZoomIn } from "react-icons/ai";
+import { AiOutlineLink, AiOutlineZoomIn , AiOutlineClose } from "react-icons/ai";
 
 const Portfolio: React.FC = () => {
   const [filter, setFilter] = useState("All");
@@ -103,7 +103,7 @@ const Portfolio: React.FC = () => {
               onClick={handleCloseModal}
               className="absolute top-2 right-2 text-2xl text-gray-700"
             >
-              ✖
+              <AiOutlineClose/>
             </button>
             <div className="relative w-[750px] h-[500px]">
               <Image
