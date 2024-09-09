@@ -1,3 +1,4 @@
+import daisyui from "daisyui";
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -13,8 +14,19 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      keyframes: {
+        upDown: {
+          '0%, 100%': { transform: 'translateY(-10px)' },
+          '50%': { transform: 'translateY(10px)' },
+        },
+      },
+      animation: {
+        upDown: 'upDown 3s ease-in-out infinite',
+      },
     },
-  },
-  plugins: [],
-};
+    
+    }, plugins: [require ("daisyui")],
+}satisfies Config
+ 
+
 export default config;
