@@ -8,6 +8,7 @@ import Faq from "./Section/Faq";
 import Portfolio from "./Section/Portfolio";
 import Testimonial from "./Section/Testimonals";
 import Team from "./Section/Team";
+import Contact from "./Section/Contactus";
 
 
 
@@ -23,7 +24,7 @@ export default function Home() {
       <div className="container mx-auto p-6 relative z-10">
 
         {/* Navbar */}
-      <Navbar/>
+      {/* <Navbar/> */}
 
  {/* hero HeroSection */}
     <Hero/>
@@ -35,6 +36,7 @@ export default function Home() {
     <Portfolio/>
     <Testimonial/>
     <Team/>
+    <Contact/>
       </div>
     </div>
       
